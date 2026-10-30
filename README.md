@@ -1,150 +1,23 @@
-#  Bus Ticket Management System in C
+# Bus Ticket Management System — Project Scaffold
 
-A simple **Bus Ticket Management System** developed using the **C programming language**. The system allows users to view available buses, book tickets, display booking information, and manage passenger records.
+This repository currently contains project documentation only. A source file such as `main.c` is not present in the repository root, so the application cannot yet be compiled or run from this repository.
 
-## Features
+## Planned scope
+The intended C console application is a bus-ticket management exercise covering:
+- Bus and route listing
+- Passenger and booking records
+- Ticket lookup and cancellation
+- Fare calculation
+- Basic menu-driven interaction
 
-* View available buses
-* View bus routes and schedules
-* Book a bus ticket
-* Enter passenger information
-* Generate a ticket
-* View booked tickets
-* Search booking information
-* Cancel a ticket
-* Calculate ticket prices
-* Simple menu-driven interface
+These are planned capabilities, not verified implemented features.
 
-##  Technologies Used
+## Suggested implementation
+1. Add the C entry point and define bus, passenger and booking structures.
+2. Implement input validation and menu navigation.
+3. Add persistent storage (file-based or a database) with clear data handling.
+4. Add tests for booking, cancellation, seat availability and fare calculation.
+5. Update this README with commands that match the actual source files.
 
-* **Programming Language:** C
-* **Compiler:** GCC
-* **Platform:** macOS / Linux / Windows
-* **Interface:** Command Line / Terminal
-
-##  Project Structure
-
-```text
-bus-ticket/
-│
-├── main.c
-├── README.md
-└── bus_ticket
-```
-
-##  How to Run
-
-### 1. Clone or download the project
-
-Open your terminal and move to the project directory:
-
-```bash
-cd bus-ticket
-```
-
-### 2. Compile the program
-
-Using GCC:
-
-```bash
-gcc main.c -o bus_ticket
-```
-
-### 3. Run the program
-
-On macOS/Linux:
-
-```bash
-./bus_ticket
-```
-
-On Windows:
-
-```bash
-bus_ticket.exe
-```
-
-##  Example Operations
-
-When the program starts, users can select options such as:
-
-```text
-=================================
-     BUS TICKET SYSTEM
-=================================
-
-1. View Buses
-2. Book Ticket
-3. View Tickets
-4. Search Ticket
-5. Cancel Ticket
-6. Exit
-
-Enter your choice:
-```
-
-##  Passenger Information
-
-During booking, the system may request:
-
-* Passenger name
-* Phone number
-* Bus number
-* Destination
-* Travel date
-* Seat number
-
-##  Ticket Information
-
-A successful booking can display information such as:
-
-```text
-=================================
-          BUS TICKET
-=================================
-Passenger : John Doe
-Bus No.   : BUS-101
-Route     : Dar es Salaam - Arusha
-Seat No.  : 15
-Price     : TZS 35,000
-=================================
-```
-
-##  Purpose
-
-The purpose of this project is to demonstrate fundamental C programming concepts, including:
-
-* Variables and data types
-* `if` statements
-* `switch` statements
-* Loops
-* Functions
-* Arrays
-* Structures
-* String handling
-* File handling
-* Input and output
-
-##  Future Improvements
-
-Possible future features include:
-
-* Login system for administrators
-* Database integration
-* Online ticket booking
-* Payment integration
-* Automatic seat allocation
-* Printable tickets
-* Customer account management
-* Improved user interface
-
-##  Author
-
-**Bus Ticket Management System**
-
-Developed as a C programming project.
-by eDDie
-
-##  License
-
-This project is intended for educational and learning purposes.
+## Status
+**Documentation scaffold — implementation not yet included.**
